@@ -1,0 +1,108 @@
+{
+    // General settings
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Workbench and Editor Themes
+    "workbench.colorTheme": "Golden Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+
+    // Robot
+    "files.associations": {
+        "*.txt": "robotframework",
+        "robotargs.txt": "shellscript"
+    },
+    "todohighlight.include": [
+        "**/*.txt",
+        "**/*.robot",
+    ],
+    "robot.pythonpath": [
+        "${workspaceFolder}/keywords",
+        "${workspaceFolder}/dctlib",
+        "${workspaceFolder}"
+    ],
+    "robot.variables": {
+        "EXECDIR": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.windows": {
+        "lintfiles": "./DCT-14880 Assets Tab Menu-v2\" \"./DCT-14882 Item List Page Layout-v2\" \"./DCT-14883 Show Hide Column Menu-v2\" \"./DCT-14884 Items List Grid Features-v2\" \"./DCT-14886 Item List Toolbar buttons-v2\" \"./Feature Tests\" \"./keywords\" \"./Regression Test"
+    },
+    "[robotframework]": {
+        "editor.semanticHighlighting.enabled": true,
+    },
+    "todohighlight.keywords": [
+        // #ff79c5 is pink
+        {
+            "text": "Run Keyword And Return",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword And Ignore Error",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword And Return Status",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If All Critical Tests Passed",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If All Tests Passed",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If Any Critical Tests Failed",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If Any Tests Failed",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If Test Failed",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If Test Passed",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword Unless",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keywords",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+        {
+            "text": "Run Keyword If",
+            "color": "#aa87f5",
+            "backgroundColor": "",
+        },
+    ],
+}

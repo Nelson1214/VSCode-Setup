@@ -1,0 +1,14 @@
+eamodio.gitlens
+jgclark.vscode-todo-highlight
+mechatroner.rainbow-csv
+meekdai.pinfiles
+mnxn.theme-golden-dracula
+ms-ceintl.vscode-language-pack-zh-hant
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+oderwat.indent-rainbow
+pkief.material-icon-theme
+pomber.git-file-history
+robocorp.robotframework-lsp
+seyyedkhandon.firacode

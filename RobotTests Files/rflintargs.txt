@@ -1,0 +1,17 @@
+-i RequireTestDocumentation
+-i RequireKeywordDocumentation
+-i RequireSuiteDocumentation
+-i LineTooLong
+-i PeriodInTestName
+-i PeriodInSuiteName
+-i TooFewKeywordSteps
+-i TooManyTestSteps
+-i FileTooLong
+-i TooManyTestCases
+-i TooFewTestSteps
+-i TrailingWhitespace
+-R ./../../rflint-rules/LibraryCheckRule.py
+-R ./../../rflint-rules/RobustnessCheckRule.py
+-R ./../../rflint-rules/StyleCheckRule.py
+
+# rflint -A rflintargs.txt -r $env:lintfiles

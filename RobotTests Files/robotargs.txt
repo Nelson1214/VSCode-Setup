@@ -1,0 +1,36 @@
+-d           ./out
+-P           ./
+-P           ./Regression Test
+-P           ./keywords
+-L           TRACE:INFO
+# -L           TRACE
+--listener   ./dctlib/listeners/no_rush.py
+# --listener   ./dctlib/listeners/ConsoleAndNetworkLog.py
+--listener   ./dctlib/listeners/double_click_retry.py
+# -e           exclude-test
+-e           D-NotImplementYet
+-e           7.0-Backlog
+-e           BrokenByCodeBug
+-v           slowNetwork:${False}
+-v           shortPeriodOfTime:5s
+-v           normalPeriodOfTime:30s
+-v           longPeriodOfTime:30s
+
+-v           dcTrackURL:https://192.168.77.77
+# -v           dcTrackURL:https://192.168.78.157
+
+# --flattenkeywords name:common.Logoff
+# --removekeywords PASSED
+
+# headless and debug
+-v           headless:True
+# -v           headless:False
+-v           debug:${False}
+# -v           debug:${True}
+
+
+-i           TMD-2561
+
+
+# robot -A robotargs.txt .
+# rflint -A rflintargs.txt -r $env:lintfiles
